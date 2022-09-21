@@ -26,9 +26,9 @@
       <h1 style="margin-top: 20px;">Proctoglyvenol's</h1>
       <nav style="margin-top: 10px; margin-left: 5px;" id="navbar" class="navbar">
         <ul>
-          <li><a class="nav-link active" href="index.html">Homepage</a></li>
-          <li><a class="nav-link" href="workshop.html">Workshop</a></li>
-          <li><a class="nav-link" href="about.html">About Me</a></li>
+          <li><a class="nav-link active" href="index.php">Homepage</a></li>
+          <li><a class="nav-link" href="workshop.php">Workshop</a></li>
+          <li><a class="nav-link" href="about.php">About Me</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav>
