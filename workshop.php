@@ -23,12 +23,12 @@
   <!-- ======= MAGAZA ======= -->
   <header id="header" class="header-top">
 	<div class="container">
-      <h1><a href="index.html"><h1>Proctoglyvenol's</h1></a></h1>
+      <h1><a href="index.php"><h1>Proctoglyvenol's</h1></a></h1>
       <nav id="navbar" class="navbar">
         <ul style="margin-top: -25px;">
-          <li><a class="nav-link" href="index.html">Homepage</a></li>
-          <li><a class="nav-link active" href="workshop.html">Workshop</a></li>
-          <li><a class="nav-link" href="about.html">About Me</a></li>
+          <li><a class="nav-link" href="index.php">Homepage</a></li>
+          <li><a class="nav-link active" href="workshop.php">Workshop</a></li>
+          <li><a class="nav-link" href="about.php">About Me</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav>
