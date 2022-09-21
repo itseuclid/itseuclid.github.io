@@ -1,7 +1,3 @@
-<?php 
-session_start();
-include_once("db_connect.php");
-?>
 <html>
 
 <head>
@@ -29,15 +25,8 @@ include_once("db_connect.php");
       <h1><a href="index.php"><h1>Minecraft Sunucum</h1></a></h1>
       <nav id="navbar" class="navbar">
         <ul style="margin-top: -25px;">
-          <li><a class="nav-link" href="index.php">Anasayfa</a></li>
-          <li><a class="nav-link active" href="magaza.php">Mağaza</a></li>
-			<?php if (isset($_SESSION['user_id'])) { ?>
-			<li><a class="nav-link" href="profil.php">Profil</a></li>
-			<li><a class="nav-link" href="logout.php">Çıkış Yap</a></li>
-			<?php } else { ?>
-			<li><a class="nav-link" href="login.php">Giriş Yap</a></li>
-			<li><a class="nav-link" href="register.php">Kaydol</a></li>
-			<?php } ?>
+          <li><a class="nav-link" href="index.html">Anasayfa</a></li>
+          <li><a class="nav-link active" href="workshop.php">Mağaza</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav>
