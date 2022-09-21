@@ -26,14 +26,14 @@ body::before {
 }
 
 a {
-  color: #18d26e;
+  color: #189bc9;
   display: inline-block;
   text-decoration: none;
   font-weight: 400;
 }
 
 a:hover {
-  color: #35e888;
+  color: #77cfff;
   text-decoration: none;
 }
 
@@ -83,7 +83,7 @@ h7 {
 }
 
 h2.inactive {
-  color: #18d26e;
+  color: #189bc9;
 }
 
 h2.active {
@@ -118,7 +118,7 @@ border-bottom: 2px solid #18d26e;
 }
 
 input[type=email]:placeholder {
-color: #18d26e;
+color: #189bc9;
 }
 
 input[type=password] {
@@ -144,15 +144,15 @@ border-radius: 5px 5px 5px 5px;
 
 input[type=password]:focus {
 background-color: #fff;
-border-bottom: 2px solid #18d26e;
+border-bottom: 2px solid #189bc9;
 }
 
 input[type=password]:placeholder {
-color: #18d26e;
+color: #189bc9;
 }
 
 input[type=button], input[type=submit], input[type=reset]  {
-  background-color: #18d26e;
+  background-color: #189bc9;
   border: none;
   color: white;
   padding: 15px 32px;
@@ -209,11 +209,11 @@ input[type=text] {
 
 input[type=text]:focus {
   background-color: #fff;
-  border-bottom: 2px solid #18d26e;;
+  border-bottom: 2px solid #189bc9;
 }
 
 input[type=text]:placeholder {
-  color: #18d26e;
+  color: #189bc9;
 }
 
 .fadeInDown {
@@ -300,13 +300,13 @@ input[type=text]:placeholder {
   bottom: -10px;
   width: 0;
   height: 2px;
-  background-color: #18d26e;
+  background-color: #189bc9;
   content: "";
   transition: width 0.2s;
 }
 
 .underlineHover:hover {
-  color: #18d26e;
+  color: #189bc9;
 }
 
 .underlineHover:hover:after{
@@ -405,7 +405,7 @@ input[type=text]:placeholder {
 		    line-height: 44px;
 		    margin: 15px 0 6px;
 		    font-weight: 900;
-			color: #18d26e;
+			color: #189bc9;
 		}
 		.price-info {
 			font-size: 14px;
@@ -441,7 +441,7 @@ input[type=text]:placeholder {
 		  content: "";
 		  height: 100%;
 		  width: 100%;
-		  background: #18d26e;
+		  background: #189bc9;
 		  z-index: -1;
 		  transition: all 0.35s ease-in-out;
 		}
@@ -452,7 +452,7 @@ input[type=text]:placeholder {
 		.plan-btn:focus {
 			text-decoration: none;
 			color: #fff;
-		  border: 2px solid #18d26e;
+		  border: 2px solid #189bc9;
 		}
 		@media (max-width: 991px) {
 			.price-box {
@@ -524,7 +524,7 @@ input[type=text]:placeholder {
 }
 #header h2 span {
   color: #fff;
-  border-bottom: 2px solid #18d26e;
+  border-bottom: 2px solid #189bc9;
   padding-bottom: 6px;
 }
 #header img {
@@ -549,7 +549,7 @@ input[type=text]:placeholder {
   height: 40px;
 }
 #header .social-links a:hover {
-  background: #18d26e;
+  background: #189bc9;
 }
 @media (max-width: 992px) {
   #header h1 {
@@ -641,7 +641,7 @@ input[type=text]:placeholder {
   height: 2px;
   bottom: -4px;
   left: 0;
-  background-color: #18d26e;
+  background-color: #189bc9;
   visibility: hidden;
   width: 0px;
   transition: all 0.3s ease-in-out 0s;
@@ -792,7 +792,7 @@ section .container {
   }
 }
 .credits a {
-  color: #18d26e;
+  color: #189bc9;
   transition: 0.3s;
 }
 .credits a:hover {
