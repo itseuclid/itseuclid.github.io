@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Minecraft Sunucum</title>
+  <title>EUCLIDBEEN</title>
   <meta content="" name="açıklama">
   <meta content="" name="anahtar, kelimeler, yaziniz">
   <link href="assets/img/favicon.png" rel="icon">
@@ -22,16 +22,11 @@
   <!-- ======= ANASAYFA/BASLIK ======= -->
   <header id="header">
     <div class="container">
-      <h1 style="margin-top: 20px;" >Minecraft Sunucum</h1>
-		<div class="hero" id="main">
-		<p style="margin-top: 10px; margin-left: 5px;" class="info">Şu anda <span class="sip" data-ip="oyna.minecraft.sunucum" data-port="25565">
-			0</span> kişi oyunda! <span class="ip">oyna.minecraft.sunucum</span></p>
-		</div>	
+      <h1 style="margin-top: 20px;" >EUCLID FUCKING BEEN</h1>
       <nav style="margin-top: 10px; margin-left: 5px;" id="navbar" class="navbar">
         <ul>
-          <li><a class="nav-link active" href="index.php">Anasayfa</a></li>
-          <li><a class="nav-link" href="magaza.php">Mağaza</a></li>
-			<?php } ?>
+          <li><a class="nav-link active" href="index.php">About Me</a></li>
+          <li><a class="nav-link" href="workshop.php">Workshop</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav>
