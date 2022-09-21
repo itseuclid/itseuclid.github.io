@@ -1,7 +1,3 @@
-<?php 
-session_start();
-include_once("db_connect.php");
-?>
 <html>
 
 <head>
@@ -35,12 +31,6 @@ include_once("db_connect.php");
         <ul>
           <li><a class="nav-link active" href="index.php">Anasayfa</a></li>
           <li><a class="nav-link" href="magaza.php">Mağaza</a></li>
-			<?php if (isset($_SESSION['user_id'])) { ?>
-			<li><a class="nav-link" href="profil.php">Profil</a></li>
-			<li><a class="nav-link" href="logout.php">Çıkış Yap</a></li>
-			<?php } else { ?>
-			<li><a class="nav-link" href="login.php">Giriş Yap</a></li>
-			<li><a class="nav-link" href="register.php">Kaydol</a></li>
 			<?php } ?>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
