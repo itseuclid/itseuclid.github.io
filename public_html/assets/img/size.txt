@@ -1,8 +1,0 @@
-1920x1080
-bg.jpg
-
-32x32
-favicon.png
-
-sizeable
-flying-heroes.png
