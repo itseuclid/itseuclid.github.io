@@ -1,11 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
-
+$oku = @fopen('sayac.txt', 'r');
+$rakam = @fread($oku, filesize('sayac.txt'));
+@fclose($oku);
+$yaz = fopen('sayac.txt', 'w');
+$goruntulenme = $rakam+1;
+fwrite($yaz, $goruntulenme);
+fclose($yaz);
+	
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Proctoglyvenol's</title>
+  <title>Proctoglyvenol's echo "".$goruntulenme."";</title>
   <meta content="" name="Proctoglyvenol's workshop & portfolio web site.">
   <meta content="" name="minecraft, itemsadder, fontimages, models, blockbench, portfolio, workshop">
 
