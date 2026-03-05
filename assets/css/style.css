@@ -556,6 +556,12 @@ section .container {
   background: rgba(0, 0, 0, 0.6);
 }
 
+.portfolio .portfolio-wrap img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
 .portfolio .portfolio-wrap::before {
   content: "";
   background: rgba(0, 0, 0, 0.6);
